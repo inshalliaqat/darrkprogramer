@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="bg.css">
+		 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+		  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+</head>
+<body>
+
+	<div class="bgimage">
+		<div class="menu">
+
+			<div class="leftmenu">
+				<h4> Dark Programer </h4>
+			</div>
+
+			<div class="rightmenu">
+				<ul>
+					<a href="main.html"><li id="fisrtlist"> HOME </li></a>
+					<li> Websites </li>
+					<li> Playlists </li>
+					<li> About us</li>
+					<li> Services </li>
+					<li> Contact </li>
+				<a href="bg.html"><li> Code editer </li></a>
+					
+				</ul>
+        <div>
+          <textarea id="editor" placeholder="Enter your HTML code"></textarea>
+          <br>
+          <button onclick="runCode()">Run</button>
+        </div>
+        <div id="preview"></div>
+      
+        <script>
+          function runCode() {
+            var code = document.getElementById('editor').value;
+            document.getElementById('preview').innerHTML = code;
+          }
+        </script> 
+			</div>
+
+		</div>
+
+<head>
+  <meta charset="UTF-8">
+
+<div class="image">
+  <head>
+    <style>
+    
+      body {
+        background-color: black;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+  
+      header {
+        background-color: #476dea93;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+  
+      #editor {
+        height: 300px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: black;
+      }
+  
+      #preview {
+        height: 300px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        color: #fff;
+      }
+  
+      button {
+        background-color: #00ff73;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+</body>
+ </html>
